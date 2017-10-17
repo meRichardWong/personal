@@ -11,7 +11,7 @@
         // Treat as normal link if no-scroll class
         if ($(this).hasClass('no-scroll')) return;
 
-        e.preventDefault();
+        e.preventDefault();     
         var heading = $(this).attr('href');
         var scrollDistance = $(heading).offset().top;
 
